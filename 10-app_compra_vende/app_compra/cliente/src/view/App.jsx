@@ -3,6 +3,7 @@ import React from 'react'
 
 import FazPedido from './FazPedido.jsx'
 import VerificaPedido from './VerificaPedido.jsx'
+import TabelaMembros from './TabelaMembros.jsx'
 
 // FIXME Não há nada de errado com esta aplicação. Sua tarefa consiste em colocá-la
 // na sua máquina virtual na nuvem UFSC.
@@ -16,8 +17,9 @@ function App () {
         </div>
         <div className="message-body">
           <div className='columns'>
-            <div className='column is-two-thirds'><VerificaPedido /></div>
+            <div className='column'><VerificaPedido /></div>
             <div className='column'><FazPedido /></div>
+            <div><TabelaMembros/></div>
           </div>
         </div>
       </div>

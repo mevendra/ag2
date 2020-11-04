@@ -2,6 +2,7 @@
 import React from 'react'
 
 import VerificaPedidos from './VerificaPedidos.jsx'
+import TabelaMembros from './TabelaMembros.jsx'
 import 'bulma/css/bulma.min.css'
 
 // FIXME Não há nada de errado com esta aplicação. Sua tarefa consiste em colocá-la
@@ -18,6 +19,9 @@ function App () {
           <div className='columns'>
             <div className='column'>
               <VerificaPedidos/>
+            </div>
+            <div>
+              <TabelaMembros/>
             </div>
           </div>
         </div>
